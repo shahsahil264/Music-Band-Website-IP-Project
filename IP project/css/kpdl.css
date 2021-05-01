@@ -1,0 +1,415 @@
+html{
+    scroll-behavior: smooth;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: TRANSPARENT !important;
+}
+.navbar-toggle{
+    border: none;
+}
+.navbar-inverse{
+    background-color: transparent !important;
+    border:none;
+    
+}
+.navbar-inverse li a{
+    color: #fff !important;
+    z-index: 2;
+    text-transform:uppercase;
+}
+.nv-br{
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    font-weight: 400;
+    color: #fff;
+}
+.full-size{
+    height: 100vh;
+}
+.fullscr{
+    height: 100%;
+    width: 100%;
+}
+.navbar-inverse.scrolled{
+    background-color: rgba(0,0,0,0.7) !important;
+    backdrop-filter:  saturate(120%) blur(8px) !important;
+    -webkit-backdrop-filter:  saturate(120%) blur(8px) !important;
+    
+}
+.fukat{
+    height:1000px;
+}
+#intro{
+    height: 100vh;
+    width: 100%;
+}
+#intro{
+    background: url("../images/buildingback.png")no-repeat center center fixed;
+    background-size: cover;
+    background-color: rgba(38,38,38,0.6);
+    display: table;
+}
+#intro-container{
+    height: 100%;
+    width: 100%;
+    padding: 0px !important;
+    background: rgba(38,38,38,0.5);
+    display: table-cell;
+    vertical-align: middle;
+}
+.intro-cont{
+    
+    color: #fff;
+   
+}
+h2.intro-cont{
+    
+    letter-spacing: 2px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    font-size: 90px;
+    
+}
+h2.intro-cont::after{
+    background-color: #fff;
+    content: '';
+    height: 5px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    position: unset;
+}
+p.intro-cont{
+    font-size: 26px !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    letter-spacing: 3px;
+}
+#introrow{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#intro-container-cont{
+    text-align: center;
+    width: 970px;
+    margin: 0 auto;
+}
+@media screen and (max-width: 768px){
+    #intro-container-cont{
+        width: initial;
+    }
+    h2.intro-cont{
+        font-size: 48px;
+    }
+    h2.intro-cont::after{
+        width: 80%;
+    }
+
+}
+.custBtn{
+    background: transparent;
+    border: none;
+    border: 3px solid white;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+
+}
+.custBtnblk{
+    background: transparent;
+    border: none;
+    border: 3px solid #414141;
+    padding: 10px;
+    color: #414141;
+    border-radius: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-top: 20px;
+   
+
+}
+#about1{
+    height: 100vh;
+    width: 100%;
+    display: table;
+}
+#about1{
+    background: url("../images/buildback2.png")no-repeat center center fixed;
+    background-size: cover;
+   
+}
+#about-container{
+    height: 100%;
+    width: 100%;
+    padding: 0px !important;
+    
+    display: table-cell;
+    vertical-align: middle;
+}
+.sections{
+    padding: 0px 150px;
+}
+@media screen and (max-width: 768px){
+    .sections{
+       padding: 0px 15px;
+    }
+}
+.aboutH{
+    color: white;
+    font-size: 68px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.aboutHBlack{
+    color: #000;
+    font-size: 48px;
+    
+}
+h1.aboutH{
+    margin-bottom: 30px;
+    
+}
+h4.aboutHBlack{
+    color: rgba(38,38,38,0.7);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    line-height: 1.55em;
+    letter-spacing: 1.5px;
+    margin-top: 20px
+    
+    
+
+}
+h4.aboutH{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 20px;
+    font-size: 30px;
+    
+    letter-spacing: 2px;
+    line-height: 1.25em;
+}
+@media screen and (max-width: 768px){
+    .aboutH{
+        font-size: 48px;
+    }
+    h4.aboutH{
+        font-size: 24px;
+    }
+}
+button{
+    outline: transparent;
+}
+#tour{
+   
+    height: 70vh;
+    width: 100%;
+   
+}
+.tourImg{
+   
+    height: 70vh;
+    width: 100%;
+}
+.tourbkg{
+    background: url("../images/westeravenue.jpg")no-repeat  center center ;
+    -o-object-fit: contain;
+object-fit: contain;
+background-size: cover;
+    
+    
+}
+.sectionLg{
+    margin: 70px 50px;
+}
+.tableCont{
+    height: 70vh;
+    display: table;
+}
+.tablecellCont{
+    display: table-cell;
+    vertical-align: middle;
+}
+@media screen and (max-width: 768px){
+    #tour{
+        height: unset;
+        margin-bottom: 50px;
+    }
+    .tourbkg{
+        height: 55vh;
+    }
+    .tableCont{
+        display: block;
+        height: 45vh;
+    }
+    .tablecellCont{
+        display: block;
+    }
+    .sectionLg{
+        margin: 0px;
+    }
+    
+}
+.mvPoints{
+   
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+.bookH{
+    letter-spacing: 2px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 68px;
+}
+.infoField{
+    color: rgba(38,38,38,0.5);
+    font-size: 12px;
+}
+p.infoField{
+    margin-bottom: 0px;
+}
+.gallCap p{
+    color: rgba(38,38,38,0.8);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    line-height: 1.55em;
+    letter-spacing: 1.5px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight:600;
+}
+
+.bookBtn{
+    background: transparent;
+    border: none;
+    border: 3px solid #777;
+    padding: 5px;
+    color: #777;
+    border-radius: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-top: 20px;
+   
+}
+.gallSeprator{
+    margin-top: 40px;
+}
+.booking{
+    height: 510px;
+    width: 100%;
+}
+.bookbkg{
+    background: url("../images/book1.jpg")no-repeat 50%;
+    background-size: contain;
+    background-color: #ffcd1e;
+    height: 100%;
+}
+.form-wrapper{
+    padding: 20px 0px;
+}
+.modal-header, .close {
+    background-color: #333;
+    color: #fff !important;
+    text-align: center;
+    font-size: 30px;
+}
+.modal-header, .modal-body {
+    padding: 40px 50px;
+}
+@media screen and (max-width: 768px){
+    .booking{
+        height: 350px;
+    }
+    .infoField{
+        font-size: 10px;
+    }
+    .gallSeprator{
+    margin-top: 20px;
+}
+.bookH{
+    font-size: 50px;
+}
+.mobSeperator{
+    margin-top: 20px;
+}
+    
+   /* .mobMarginErr{
+margin-top: 85px;
+}*/
+}
+.modal-header, .close {
+background-color: #333;
+color: #fff !important;
+text-align: center;
+font-size: 30px;
+}
+.modal-header, .modal-body {
+padding: 40px 50px;
+}
+.foot {
+  
+  background-color: #282828;
+  width: 100%;
+
+  height: 50px;
+  
+  bottom: 0;
+  color: #888888;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik", sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  z-index: 3;
+
+}
+.foot a {
+  
+  margin: 0 5px;
+  padding: 2px 3px;
+  text-decoration: none;
+  position: relative;
+  transition: all 0.3s ease;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+    .foot .one {
+  width: 2px;
+  height: 20px;
+  background-color: #444857;
+  margin: 0 10px 0 5px;
+}
+    
+    @media (max-width: 799px){
+        .foot{
+            height: fit-content;
+        }
+    }
+    a{
+        color: inherit;
+    }
+    a:focus {
+    outline: none;
+    
+}
+a:focus, a:hover {
+    color:  inherit;
+    text-decoration: none;
+}
+
+
